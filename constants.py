@@ -1,0 +1,23 @@
+class SCREEN:
+    WIDTH = 1280
+    HEIGHT = 720
+
+class PLAYER:
+    RADIUS = 20
+    TURN_SPEED = 300
+    SPEED = 200
+    SHOOT_SPEED = 500
+    SHOOT_COOLDOWN_SECONDS = 0.3
+
+class LINE:
+    WIDTH = 2
+    COLOR = "white"
+
+class ASTEROID:
+    MIN_RADIUS = 20
+    KINDS = 3
+    SPAWN_RATE_SECONDS = 0.8
+    MAX_RADIUS = MIN_RADIUS * KINDS
+
+class SHOT:
+    RADIUS = 5
